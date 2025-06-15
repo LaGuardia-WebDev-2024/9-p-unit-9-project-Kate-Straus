@@ -18,4 +18,16 @@ p {
 }
 
 
+#score {
+  color: green;
+  font-weight: bold;
+}
+button {
+  background-color: lightblue;
+  padding: 10px;
+}
+.instructions {
+  font-style: italic;
+  margin-top: 10px;
+}
 

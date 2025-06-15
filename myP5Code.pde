@@ -15,10 +15,15 @@ void draw() {
     text("BOOM!", 170, 200);
   }
 }
+if (balloonY < 0 || balloonX > width) {
+  resetBalloon();
+}
 
 void mousePressed() {
   if (balloonSize > 5) { 
     balloonSize -= 10; // Small balloon
   }
 }
+
+
 
